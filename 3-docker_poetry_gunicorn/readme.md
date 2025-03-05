@@ -15,6 +15,7 @@ uvicorn main:app --reload
 ```bash
 sudo docker build -t poetry_app .
 sudo docker run -p 8000:80 poetry_app
+sudo docker compose  up --build
 
 sudo docker system prune -a
 sudo systemctl restart docker
