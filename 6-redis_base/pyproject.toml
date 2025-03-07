@@ -1,0 +1,20 @@
+[project]
+name = "6-redis"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "ne_srv",email = "ne_srv@mail.ru"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.extras.dependencies]
+redis = "^5.2.1"
+
